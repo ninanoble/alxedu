@@ -1,0 +1,67 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.certificate-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 70%;
+    max-width: 800px;
+}
+
+.certificate-container h1 {
+    font-size: 24px;
+    color: #002060;
+    margin-bottom: 10px;
+}
+
+.certificate-container p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+.highlight {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.certificate-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.download-btn:hover {
+    background-color: #003d80;
+}
+
+
